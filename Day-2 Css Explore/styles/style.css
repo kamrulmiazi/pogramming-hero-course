@@ -1,0 +1,20 @@
+.blog{
+    background: brown;
+    color: white;
+    padding: 20px;
+    border-top:10px solid blueviolet ;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px black;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+
+header{
+    background-image: url("../3f380f3d-7cb5-4084-8075-273bc3631f34.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: yellow;
+    height: 500px;
+}

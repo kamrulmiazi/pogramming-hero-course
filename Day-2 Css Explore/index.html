@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css basic explore </title>
+    <style>
+        /* h1= selector , color= property, black= property value  */
+        h1 {
+            color: black;
+            background: blue;
+        }
+
+        /* h2 = element selector  */
+        h2 {
+            color: brown;
+        }
+
+        /* .size = class selector (.name = select structure)  */
+        .size {
+            background: blueviolet;
+        }
+
+        /* #bold = class selector i am unique (#name = select structure)  */
+        #bold {
+            background: blueviolet;
+        }
+
+        /* attribute selector. type="password">attribute select structure  */
+        input[type="password"]{
+            color:red;
+        }
+
+        /* universal selector= (*) means all selector   */
+        *{
+            margin:0;
+            padding: 0;
+        }
+
+        /* grouping selector means double multiple selector  */
+        p, input {
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Css Basic Explore </h1>
+    <p>Css type of three </p>
+    <ul>
+        <li>Inline </li>
+        <li>Internal </li>
+        <li>External </li>
+    </ul>
+
+    <h1 style="color: white; background: red;">I am inline css </h1>
+
+    <h1>I am internal css and Element selector. my css style above on the head tag </h1>
+
+    <p>css selector type of 6</p>
+    <ul>
+        <li>Element/tag</li>
+        <li>class</li>
+        <li>id</li>
+        <li>universal</li>
+        <li>grouping</li>
+        <li>attribute </li>
+    </ul>
+
+    <h2>Hey i'm element selector. </h2>
+
+    <p class="size">Hey i'm class selector </p>
+
+    <p id="bold">HEy i'm id selector. </p>
+
+    <form action="">
+        <input type="text" placeholder="i am attribute selector">
+        <input type="password" name="" id="">
+    </form>
+</body>
+
+</html>
